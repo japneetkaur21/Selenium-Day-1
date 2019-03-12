@@ -1,0 +1,13 @@
+Q3- Difference between implicit & explicit wait along with syntax.
+
+Ans. 1. An implicit wait tells WebDriver to poll the DOM for a certain amount of time when trying to find an element or elements if they are not immediately available.
+The implicit wait is set for the life of the WebDriver object instance.
+You can set the implicit wait when you first instantiate the WebDriver.
+Syntax :
+driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
+2. Explicit waits are intelligent waits that are confined to a particular web element.
+It will be used if we want the execution to wait for some time until some condition achieved.
+Syntax :
+WebDriverWait wait = new WebDriverWait(driver, 10);
+wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.name("submit"))));
