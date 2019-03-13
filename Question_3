@@ -1,0 +1,15 @@
+Q3- What are the advantages of TestNG & TestNG annotations?
+
+Ans. Benefits of using TestNG:
+     1. It helps us to produce HTML Reports of execution of test cases.
+     2. Annotations make tester's life easy.
+     3. Test cases can be Grouped & Prioritized more easily.
+     4. Parallel testing is possible.
+     5. We can generates Logs easily.
+     6. Data Parameterization is possible.
+
+     Benefits of using Annotations:
+     1. It identifies the methods it requires by looking up annotations. Hence method names are not restricted to any pattern or format.
+     2. We can pass additional parameters to annotations.
+     3. Annotations are strongly typed, so the compiler will flag any mistakes right away.
+     4. Test classes no longer need to extend anything .
